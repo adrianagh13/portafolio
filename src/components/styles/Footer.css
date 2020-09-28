@@ -46,7 +46,6 @@
 }
 
 .social-link{
-    border: 1px solid black;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -54,13 +53,13 @@
 }
 
 .social-link.facebook{ /*si tiene la clase social-link y la clase facebook...*/
-    background-image: url('/src/images/facebook.png');
+    background-image: url('/facebook.png');
 }
 
 .social-link.github{
-    background-image: url('/src/images/github.png');
+    background-image: url('/github.png') ;
 }
 
 .social-link.instagram{
-    background-image: url('/src/images/instagram.png');
+    background-image: url('/instagram.png');
 }

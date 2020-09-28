@@ -11,6 +11,7 @@ const Footer = () => (
                 <button>Enviar</button>
             </form>
             <div className="social">
+                <h3>Encuéntrame en mis redes sociales :)</h3>
                 <a href="https://facebook.com/adrianaguadalupe.gh" className="social-link facebook" target="_blank" ></a>
                 <a href="https://github.com/adrianagh13" className="social-link github" target="_blank"></a>
                 <a href="https://instagram.com/adriannggh" className="social-link instagram" target="_blank"></a>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import terminal from '../images/terminal.jpg';
-import git from '../images/git.jpg'
+import github from '../images/git.jpg'
 import prework from '../images/prework.jpg'
 import basica from '../images/basica.jpg'
 import basico from '../images/basico.jpg'
@@ -40,7 +40,7 @@ const Courses = () => {
                     </article>
                     <article className="event">
                         <figure className="event-imageContainer">
-                            <img className="event-image" src={git} width="500" height="300"/>
+                            <img className="event-image" src={github} width="500" height="300"/>
                         </figure>
                         <div className="event-detail">
                             <h3 className="event-title">Git y Github</h3>
