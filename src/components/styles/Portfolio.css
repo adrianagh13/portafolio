@@ -1,0 +1,55 @@
+.portfolio{
+    background-color: #faeee7;
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+.portfolio h2{
+    margin-top: 40px;    
+    padding: 20px;
+    color: #411f1f;
+    text-transform: uppercase;
+    font-weight: bold; /*para que esté en negritas*/
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+}
+
+.project{
+    border: 1px solid grey;
+    border-radius: 10px; /*Sirve para hacer redondeadas las esquinas de un borde*/
+    /* border-top-right-radius: 5px ; */
+    padding: 20px;
+    margin-bottom: 15px; /*para que haya una separación entre los proyectos*/
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-details{
+    width: 600px;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+
+.project strong{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}

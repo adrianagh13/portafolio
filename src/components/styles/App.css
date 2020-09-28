@@ -1,0 +1,48 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 100; /*Esta propiedad nos sirve para hacer la letra más gruesa*/
+    /* font-style: italic;  con font-style podemos vambiar el estilo de la letra*/ 
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5 em; /**/
+    letter-spacing: -.2px;
+    color: white;
+    text-transform: capitalize; /*Text transform cambia el estilo, mayusculas o minusculas*/
+    text-decoration: none; /*Añade decoraciones al texto como tachados, subrayados, etc*/
+    /* margin: 100px 540px 70px 30px; */
+    margin: 0;
+}
+
+.wrapper{
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit; /*heredamos del padre que es header*/
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit; /*sino heredamos las propiedades que estamos aplicando en cada objeto, no funcionará*/
+}

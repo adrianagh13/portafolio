@@ -1,0 +1,66 @@
+
+
+.form-email label{
+    font-family: 'Playfair Display', serif;
+}
+
+.contact{
+    padding: 20px 0;
+    background-color: #ff9c71;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*contact tiene 2 hijos, el form-email y social, cuando aplicamos space between a dos elementos logra el efecto de mandaralos a los extremos */
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-email input{
+    margin-top: 10px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 20px 5px 30px;
+    background-image: url('/src/images/msg.png'); /*recuerda que no podrías aplicar padding al background porque es un FONDO no un elemento*/
+    background-repeat: no-repeat; /*propiedad que nos funciona para que cuando apliquemos una imagen esta no se repita*/
+    background-position-y: center; /*en un sistema de coordenadas, y es vertical por lo tanto le indicamos que se centre verticalmente*/
+    background-position-x: 5px;
+}
+
+.form-email button{
+    margin-top: 10px;
+    width: 100px;
+    background: transparent;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form-email label{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.social-link{
+    border: 1px solid black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /*genera espacios entre nuestros logos*/
+}
+
+.social-link.facebook{ /*si tiene la clase social-link y la clase facebook...*/
+    background-image: url('/src/images/facebook.png');
+}
+
+.social-link.github{
+    background-image: url('/src/images/github.png');
+}
+
+.social-link.instagram{
+    background-image: url('/src/images/instagram.png');
+}
