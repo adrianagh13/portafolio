@@ -51,15 +51,3 @@
     height: 50px;
     margin: 0 10px; /*genera espacios entre nuestros logos*/
 }
-
-.social-link.facebook{ /*si tiene la clase social-link y la clase facebook...*/
-    background-image: url('/facebook.png');
-}
-
-.social-link.github{
-    background-image: url('/github.png') ;
-}
-
-.social-link.instagram{
-    background-image: url('/instagram.png');
-}
